@@ -1,0 +1,157 @@
+html {
+
+
+}
+
+body {
+    font-family:  "Tac One", sans-serif;
+    background-image: url(../imgs/festival9.jpg);
+    background-size: cover;
+    letter-spacing: 1.px;
+    
+  }
+
+header{
+
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 10vh;
+        margin-top: 35px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color:silver;
+        border-radius: 3.5px;
+        opacity: 0.5;
+}  
+
+footer{
+
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;    
+    height: 5vh;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    background-color:silver;
+    border-radius: 3.5px;
+    opacity: 0.5;
+
+}
+
+footer p {  
+      
+    align-content: center;
+    color:black;
+    font-size: 28px;
+    letter-spacing: 15px;
+
+  }
+
+  .pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  gap: 2.5rem;
+  background-color:transparent;
+  margin:25px;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 5px;
+  border-radius: 7.5px;
+}
+
+.pricing-plan {
+  flex: 1;
+  align-content: center;
+  max-width: 450px;
+  height: 450px;
+  padding: 35px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: transparent;
+  border: 0.5px double silver;
+  border-radius: 15px;
+  opacity: 0.75;
+  
+  
+  text-align: center;
+  
+}
+
+.plan-title {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: yellow;
+}
+
+.plan-price {
+  font-size: 56px;
+  font-weight: 650;
+  margin-bottom: 10px;
+  color:red;
+}
+
+.plan-features {
+  font-size: 24px;
+  list-style: none;
+  padding: 15px;
+  margin: 25px;
+  color: blue;
+  
+}
+
+.plan-features li {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.plan-button {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+@media (max-width: 1250px) {
+
+    header{visibility: ;}
+
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 50px;
+    height:auto;
+
+  }
+
+  .pricing-plan {margin-bottom: 150px;margin-bottom: 75px;}
+
+    header{margin-bottom: 75px;}
+
+    footer{visibility: ;text-align: center;font-size: 5px;letter-spacing:7.5px ;}
+
+    footer .slide-social {visibility: hidden;}
+    
+}
+li {background-color:silver;opacity: 0.75 ;color:blue;letter-spacing: 1.5px;}
+
+
+
+
+.tac-one-regular {
+  font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+

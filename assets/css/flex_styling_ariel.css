@@ -1,0 +1,183 @@
+html {
+
+
+}
+
+body {
+    font-family: "Abril Fatface", serif;
+  /*  background-image: url(../imgs/oshri6.jpg);  */
+  /*  background-color: #D20062; */
+    background-color: #F72798;
+    background-size: cover;
+    letter-spacing: 2.5px;
+    
+  }
+
+header{
+
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 10vh;
+        margin-top: 38px;
+        margin-left: 65px;
+        margin-right: 65px;
+        background-color:#EBF400;
+        opacity: 1;
+        border: 1.5px white groove;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+}  
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 5vh;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    background-color:#EBF400;
+    border: 1.5px groove white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+
+}
+
+footer p { align-content: center;
+            color:black;
+            font-size: 25px;
+            letter-spacing: 15px;
+}
+
+  .pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  gap: 2.5rem;
+  background-color: #000000;
+  margin:25px;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 5px;
+}
+
+.pricing-plan {
+  flex: 1;
+  align-content: center;
+  max-width: 425px;
+  height: 450px;
+  padding: 35px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color:#F57D1F;
+  background:linear-gradient( #f57d1f , transparent);
+  border: 1.5px double white;
+  border-radius: 15px;
+  border-bottom: none;
+  border-top: none;
+  opacity: 1;
+  letter-spacing:1.5px;
+  text-align: center;
+  
+}
+
+.plan-title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  color:black;
+}
+
+.plan-price {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color:black;
+}
+
+.plan-features {
+  font-size: 20px;
+  list-style: none;
+  padding: 15px;
+  margin: 25px;
+  opacity: 1;
+}
+
+.plan-features li {
+  margin-bottom: 20px;
+  padding: 7.5px;
+}
+
+.plan-button {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+@media (max-width: 1250px) {
+
+    header{visibility: ;}
+
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 25px;
+    height: auto;
+  }
+
+  .pricing-plan {margin-bottom: 150px;margin-bottom: 75px;}
+
+    header{margin-bottom: 75px;}
+
+    footer p {visibility: ;font-size: 13px;text-align: center;}
+
+    footer .heart-right .heart-left {visibility: hidden;}
+    
+    
+}
+
+li {background-color:whitesmoke;color:black ;}
+
+          /*  google-fonts  */
+
+/*  tac-one-regular   */
+
+.tac-one-regular {
+  font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  satisfy-regular   */
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  abril-fatface-regular   */
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
